@@ -2,7 +2,7 @@
 
 ## 📘 Scenario
 
-You’ve inherited a view in Snowflake that support a core business dashboard used in ThoughtSpot `V_USER_ENGAGEMENT_METRICS`. The dashboard has recently become sluggish, with some queries taking over 60 seconds to run.
+You’ve inherited a view in Snowflake that support a core business dashboard used in ThoughtSpot `V_USER_ENGAGEMENT_SUMMARY`. The dashboard has recently become sluggish, with some queries taking over 60 seconds to run.
 
 You’ve been asked to investigate and propose a plan to refactor these views for **performance and maintainability**. Initial investigation suggests that there is another view, `V_SESSION_BASE_METRICS` that is referenced within the SQL code.
 
